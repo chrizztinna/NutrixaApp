@@ -1,0 +1,62 @@
+.hero{
+    display:flex;
+    justify-content: space-between ;
+
+} 
+
+.left-h{
+    padding: 2rem;
+    padding-top: 1.5rem;
+    flex: 3;
+    background-color: #EBFCEC;
+}
+
+.right-h{
+    flex: 1;
+    position: relative;
+    /* background-color: #E4DCF6; */
+    
+}
+
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: black;
+    text-overflow: inherit;
+    position: relative;
+    top: 100px;
+    /* to bring down the gray banner background for now */
+    margin-bottom: 125px; 
+}
+
+.hero-buttons{
+    display: flex;
+    gap: 1rem;
+    font-weight: normal;
+}
+
+.hero-buttons>:nth-child(1){
+    color: white;
+    background-color: #6CBA65;
+    width: 7.5rem;
+}
+
+.right-h>.btn{
+    position: absolute;
+    right: 3rem;
+    top: 2rem;
+    width: 7rem;
+    background-color: #6CBA65;
+    color: white;
+}
+
+.woman-image{
+    position: absolute;
+    top: 7.5rem;
+    left: 23rem;
+    width: 40rem;
+}
