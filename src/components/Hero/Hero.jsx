@@ -9,7 +9,7 @@ const Hero = () => {
         <div className="left-h">
           <Header/>
 
-{/* Hero Heading */}
+{/* Nutrixa Slogan Heading */}
     <div className="hero-text">
       <div><span>
         Feel Good,</span></div>
@@ -21,12 +21,12 @@ const Hero = () => {
         Start today!</span></div>
     </div>
     
-    {/* hero buttons */}
+    {/* Sign Up and Log in buttons */}
     <div className="hero-buttons">
       <buttons className="btn">Get Started</buttons>
     </div>
 
-     {/* woman image */}
+     {/* Woman image */}
      <img src={woman_image} alt="" className="woman-image"/>
 
 
