@@ -5,16 +5,15 @@
 } 
 
 .left-h{
-    padding: 2rem;
+    padding: 3rem;
     padding-top: 1.5rem;
     flex: 3;
-    background-color: #EBFCEC;
+    /*background-color: #EBFCEC;*/
 }
 
 .right-h{
     flex: 1;
     position: relative;
-    /* background-color: #E4DCF6; */
     
 }
 
@@ -56,7 +55,36 @@
 
 .woman-image{
     position: absolute;
-    top: 7.5rem;
+    top: 5rem;
     left: 23rem;
     width: 40rem;
+}
+.hero-blur{
+    width: 45rem;
+    height: 30rem;
+    left: 0;
+}
+
+.hero2-blur{
+    width: 45rem;
+    height: 40rem;
+    right: 0;
+    top: 25rem;
+}
+
+@media screen and (max-width:768px) 
+{
+    .hero{
+        flex-direction: column;
+    }
+
+    .hero-blur{
+        width: 14rem;
+    }
+    
+    .hero-text{
+        font-size: xx-large;
+        align-items: center;
+        justify-content: center;
+    }
 }

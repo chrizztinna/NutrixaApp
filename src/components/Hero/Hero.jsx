@@ -6,19 +6,26 @@ import woman_image from "../../assets/woman.png";
 const Hero = () => {
   return (
     <div className="hero">
+
+        <div className="blur hero-blur"></div>
+
         <div className="left-h">
           <Header/>
 
 {/* Nutrixa Slogan Heading */}
     <div className="hero-text">
-      <div><span>
-        Feel Good,</span></div>
+        <div><span>
+        Feel Good,
+        </span></div>
 
         <div><span>
-        Get Fit,</span></div>
+        Get Fit,
+        </span></div>
 
         <div><span>
-        Start today!</span></div>
+        Start today!
+        </span></div>
+
     </div>
     
     {/* Sign Up and Log in buttons */}
@@ -31,6 +38,8 @@ const Hero = () => {
 
 
         </div>
+        <div className="blur hero2-blur"></div>
+
         <div className="right-h">
           <button className='btn'>Log In</button>
 
