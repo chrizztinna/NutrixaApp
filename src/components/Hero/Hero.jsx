@@ -2,10 +2,13 @@ import React from 'react'
 import Header from '../Header/Header'
 import './Hero.css'
 import woman_image from "../../assets/woman.png";
+import { Link } from 'react-scroll'
+
 
 const Hero = () => {
+  const mobile = window.innerWidth<= 768 ? true: false;
   return (
-    <div className="hero">
+    <div className="hero"id="home">
 
         <div className="blur hero-blur"></div>
 

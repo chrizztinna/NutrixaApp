@@ -66,3 +66,67 @@
     transform: translateY(25rem); 
 
 }
+
+@media screen and (max-width: 768px) {
+    .Reasons{
+        flex-direction: column;
+    }
+
+    .right-r{
+        padding: 1rem;
+    }
+
+    .left-r > :nth-child(1){
+        width: 20rem;
+
+    }
+
+    .details-r{
+        padding: 0.5rem;
+        width: 19rem;
+               
+    }
+
+    .details-r > :nth-child(1){
+      font-size: 1rem;
+      margin-left: -1.5rem;
+      position: relative;
+    }
+
+    .details-r > :nth-child(2){
+        font-size: 1rem;
+        margin-left: -1.5rem;
+      }
+
+      .details-r > :nth-child(3){
+        font-size: 1rem;
+        margin-left: -1.5rem;
+      }
+
+      .details-r > :nth-child(4){
+        font-size: 1rem;
+        margin-left: -1.5rem;
+      }
+
+      .reasons-blur{
+        width: 25rem;
+        height: 30rem;
+        padding-bottom: -20rem;
+        filter: blur(65px);
+        left: 0;
+        position: absolute;
+     
+    }
+
+    .reasons2-blur{
+        margin-top: 18rem;
+        margin-left: -5rem;
+        width: 20rem;
+        height: 25rem;
+
+        filter: blur(60px);
+        left: 0;
+        position: absolute;
+     
+    }
+}
